@@ -1,7 +1,8 @@
 import datetime
 
 import django
-
+import os
+os.environ['DJANGO_SETTINGS_MODULE'] = 'upsystems_bot.settings'
 django.setup()
 
 import telebot
