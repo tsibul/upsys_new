@@ -8,13 +8,13 @@ django.setup()
 import telebot
 import configparser
 
-from locations import ret_address
-from checks import hello_user, check_button, check_user, check_phone, check_ph_button
-from backinfo import standard_commands, phone_no_commands, member_register_commands, week_days
-from menu import show_buttons, give_number, member_register, game_register_menu_date, game_register_menu_location, \
+from tgr_bot.locations import ret_address
+from tgr_bot.checks import hello_user, check_button, check_user, check_phone, check_ph_button
+from tgr_bot.backinfo import standard_commands, phone_no_commands, member_register_commands, week_days
+from tgr_bot.menu import show_buttons, give_number, member_register, game_register_menu_date, game_register_menu_location, \
     who_checked_date, who_checked_location
-from members import add_phone_no, update_nickname, update_birthdate, update_photo_file
-from game_register import game_register, who_registered_persons,  who_registered_images
+from tgr_bot.members import add_phone_no, update_nickname, update_birthdate, update_photo_file
+from tgr_bot.game_register import game_register, who_registered_persons,  who_registered_images
 
 config = configparser.RawConfigParser()
 config.read('config.cfg')
