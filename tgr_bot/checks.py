@@ -1,12 +1,12 @@
 import datetime
 
 from game_management.models import Member, Lead, LeadLog
-from backinfo import standard_commands as st
-from backinfo import phone_no_commands as ph
-from promo import promo_text, price_text, discount_text, member_rating, master_rating
-from schedule import schedule_date_game
+from tgr_bot.backinfo import standard_commands as st
+from tgr_bot.backinfo import phone_no_commands as ph
+from tgr_bot.promo import promo_text, price_text, discount_text, member_rating, master_rating
+from tgr_bot.schedule import schedule_date_game
 from datetime import date, timezone
-from game_register import registered_text
+from tgr_bot.game_register import registered_text
 
 def hello_user(msg):
     lead_id = msg.id
