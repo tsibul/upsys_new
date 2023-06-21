@@ -2,7 +2,7 @@ import datetime
 from datetime import timedelta
 
 from telebot import types
-from backinfo import weekday_rus
+from tgr_bot.backinfo import weekday_rus
 from game_management.models import Schedule, RegisteredToGame, Member
 
 

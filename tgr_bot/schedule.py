@@ -1,4 +1,4 @@
-from backinfo import weekday_rus, promo_relpace, date_loc_sch_dict, date_gam_sch_dict
+from tgr_bot.backinfo import weekday_rus, promo_relpace, date_loc_sch_dict, date_gam_sch_dict
 
 
 def schedule_date_location():

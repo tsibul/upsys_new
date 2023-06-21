@@ -1,5 +1,5 @@
 from game_management.models import Promo
-from backinfo import promo_relpace
+from tgr_bot.backinfo import promo_relpace
 
 def promo_text():
     promo = Promo.objects.filter(active=True, promo_type='О нас').order_by('-promo_date').first()

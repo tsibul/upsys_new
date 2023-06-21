@@ -1,7 +1,7 @@
 import datetime
 from datetime import timedelta
 from game_management.models import Location, Schedule, Member, RegisteredToGame
-from  backinfo import weekday_rus
+from tgr_bot.backinfo import weekday_rus
 
 
 def game_register(chat_id, register_type, location, game, date, time_begin, time_end):
